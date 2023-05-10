@@ -1,10 +1,10 @@
 # OOPBank
 
-Bank Application
+## Bank Application
 
 This Java program is a simple bank application that allows users to create accounts, log in, and perform various banking operations such as depositing, withdrawing, and checking the account balance. The application supports two types of accounts: Checking Account and Credit Card.
 
-Account Hierarchy
+## Account Hierarchy
 
 The program uses an abstract Account class as the base class for the two account types. The Account class contains common attributes like balance and accountNumber along with abstract methods generateAccountNumber(), deposit(double amount), and withdraw(double amount) that need to be implemented by its subclasses.
 
@@ -12,7 +12,7 @@ The CheckingAccount class represents a checking account and extends the Account 
 
 The CreditCard class represents a credit card account and also extends the Account class. It includes attributes such as creditLimit and withdrawalFee. The abstract methods are implemented to handle credit card account operations.
 
-Main Class
+## Main Class
 
 The BankApp class serves as the entry point of the program. It allows users to create accounts, log in, and perform banking operations. The program maintains a list of accounts in the accounts list.
 
@@ -24,7 +24,7 @@ The login() method prompts the user to enter their account number and verifies i
 
 The displayUserOptions() method displays a menu specific to the user's account type (checking or credit card). Users can choose options such as depositing, withdrawing, checking the balance, or returning to the main menu. The selected operation is performed by calling the corresponding methods on the account object.
 
-Usage
+### Usage
 
 Run the program.
 Choose an option from the main menu.
